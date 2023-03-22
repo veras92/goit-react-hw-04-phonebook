@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: whitesmoke;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(126, 22, 191);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:focus {
+  border-color: rgb(232, 22, 22);
+  color: rgb(232, 22, 22);
+}

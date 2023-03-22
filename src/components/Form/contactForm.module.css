@@ -1,0 +1,47 @@
+.section {
+  display: block;
+  width: 400px;
+  padding: 20px;
+  border: 2px solid rgb(241, 237, 31);
+  border-radius: 30px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 300px;
+  height: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input:hover,
+.input:focus {
+  border-color: rgb(241, 237, 31);
+}
+
+.button {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(126, 22, 191);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button:hover {
+  border-color: rgb(17, 193, 29);
+  color: rgb(17, 193, 29);
+}
